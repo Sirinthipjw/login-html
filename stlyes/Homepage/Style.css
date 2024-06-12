@@ -1,0 +1,80 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans Unicode";
+    
+}
+
+body{
+    background-image: url(../../components/376568795_1673509606503686_4806483406089302625_n.jpg);
+    background-size: cover;
+    background-color: rgb(255,255,255,0.7);
+    background-blend-mode: color-burn;
+    
+}
+
+.content p{
+    font-family: 'Zen Dots', sans-serif;
+    font-size: 6vw;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 18%;
+}
+.container{
+    max-width: 70vw;
+    margin:auto;
+}
+
+.logo a{
+    font-weight: 900;
+    font-size: larger;
+    
+}
+
+nav{
+    background-color: black;
+}
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.nav-con a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    font-weight: 400;
+
+}
+.navbar li{
+    list-style: none;
+    margin-right: 1rem;
+    
+}
+.navbar a:active{
+    border: 0px;
+    outline: none;
+    color: yellow;
+    
+    
+}
+
+.navbar a:hover{
+    color:yellow;
+}
+
+
+
+
+
